@@ -16,7 +16,7 @@ def install_neovim_config(repo_url, config_dir):
         run_command(f"cd {config_dir} && git pull")
 
 def main():
-    repo_url = "https://github.com/AoiIT/kittenVim.git"
+    repo_url = "https://github.com/AoiIT/Alarivim.git"
 
     # Директория для конфига Neovim
     config_dir = os.path.expanduser("~/.config/nvim")
